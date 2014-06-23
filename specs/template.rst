@@ -195,9 +195,6 @@ Examples of things to consider here include:
 * A periodic task might look like a small addition but if it calls conductor or
   another service the load is multiplied by the number of nodes in the system.
 
-* Scheduler filters get called once per host for every instance being created,
-  so any latency they introduce is linear with the size of the system.
-
 * A small change in a utility function or a commonly used decorator can have a
   large impacts on performance.
 
