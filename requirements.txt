@@ -1,5 +1,5 @@
-oslosphinx
-pbr>=0.6,!=0.7,<1.0
-sphinx>=1.1.2,!=1.2.0,<1.3
+pbr>=2.0,!=2.1
+sphinx>=2.0.0
+openstackdocstheme>=2.0.0
 testrepository>=0.0.18
 testtools>=0.9.34
